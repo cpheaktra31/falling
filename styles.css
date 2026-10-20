@@ -193,55 +193,6 @@ button {
   padding: 0 15px
 }
 
-.chrome-title {
-  font-family: "Pirata One", "Ubuntu", Arial, sans-serif;
-  position: relative;
-  margin: 9px auto 0;
-  font-size: clamp(105px, 21.2vw, 390px);
-  font-weight: 900;
-  letter-spacing: -.06em;
-  line-height: 1.05;
-  white-space: nowrap;
-  padding-right: .08em;
-  background: linear-gradient(178deg, #fff 6%, #fafaff 20%, #5c5a65 36%, #f5f6fd 42%, #656770 48%, #14151a 53%, #d6d8e0 60%, #fff 70%, #585961 82%, #f8f8ff 94%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  filter: drop-shadow(0 1px 1px rgba(255, 255, 255, .8)) drop-shadow(0 12px 30px rgba(0, 0, 0, .85));
-  text-shadow: 0 0 38px rgba(230, 233, 255, .08);
-  -webkit-text-stroke: 1px rgba(247, 248, 255, .14)
-}
-
-.chrome-title:after {
-  content: attr(data-text);
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 2px rgba(255, 255, 255, .22);
-  filter: blur(8px)
-}
-
-.hero-title-reflection {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 77%;
-  font-size: clamp(105px, 21.2vw, 390px);
-  font-weight: 900;
-  letter-spacing: -.105em;
-  line-height: 1.05;
-  white-space: nowrap;
-  padding-right: .08em;
-  color: #fff;
-  opacity: .09;
-  transform: scaleY(-.38);
-  transform-origin: top;
-  filter: blur(8px);
-  pointer-events: none;
-  mask-image: linear-gradient(#000, transparent)
-}
-
 .hero-subtitle {
   position: relative;
   font-size: clamp(11px, 1.3vw, 16px);
@@ -661,11 +612,6 @@ button {
 
   .hero-content {
     margin-top: 0
-  }
-
-  .chrome-title,
-  .hero-title-reflection {
-    font-size: 21vw
   }
 
   .fragments-top {
